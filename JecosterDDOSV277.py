@@ -111,8 +111,8 @@ print(" [ ===============     ] 100%")
 os.system("clear")
 
 def Attack():
-	bytes = random._urandom(577)
-	data = random._urandom(200000)
+	bytes = random._radint(3451)
+	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
 		try:
@@ -126,8 +126,8 @@ def Attack():
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack2():
-	bytes = random._urandom(577)
-	data = random._urandom(200000)
+	bytes = random._radint(3451)
+	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
 		try:
@@ -141,8 +141,8 @@ def Attack2():
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack3():
-	bytes = random._urandom(577)
-	data = random._urandom(200000)
+	bytes = random._radint(3451)
+	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
 		try:
@@ -156,8 +156,8 @@ def Attack3():
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack4():
-	bytes = random._urandom(577)
-	data = random._urandom(200000)
+	bytes = random._radint(3451)
+	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
 		try:
@@ -171,8 +171,8 @@ def Attack4():
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack5():
-	bytes = random._urandom(577)
-	data = random._urandom(200000)
+	bytes = random._radint(3451)
+	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
 		try:
@@ -186,8 +186,8 @@ def Attack5():
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack6():
-	bytes = random._urandom(16)
-	data = random._urandom(400)
+	bytes = random._radint(3451)
+	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
 		try:
@@ -201,8 +201,8 @@ def Attack6():
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 			
 def Attack7():
-	bytes = random._urandom(17)
-	data = random._urandom(500)
+	bytes = random._radint(3451)
+	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
 		try:

